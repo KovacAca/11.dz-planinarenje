@@ -33,6 +33,22 @@ body {
 a {
   text-decoration: none;
 }
+button {
+  background: var(--lightGreen);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  color: var(--white);
+}
+h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
 /******************
 navs
 ******************/
@@ -50,7 +66,41 @@ navs
 .navs a {
   color: var(--white);
   transition: var(--transition);
+  margin-left: 10px;
 }
 .navs a:hover {
   color: var(--lightGreen);
+}
+/******************
+about
+******************/
+.about {
+  margin-top: 50px;
+  display: flex;
+}
+.about article:first-child {
+  flex: 0 0 40%;
+}
+.about article:first-child div:first-child {
+  background: var(--darkGreen);
+  padding: 50px;
+}
+.about article:first-child div:last-child {
+  background: var(--blue);
+  padding: 50px;
+}
+.about article h2 {
+  color: var(--white);
+}
+.about article p {
+  color: var(--white);
+  padding: 20px 0;
+  font-size: 1.2rem;
+}
+.about article:last-child {
+  flex:0 0 60%;
+  background: url(../img/uvod.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
