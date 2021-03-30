@@ -27,7 +27,7 @@ body {
   margin: 50px 0;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
 }
 a {
@@ -155,3 +155,37 @@ galery
   text-align: center;
   color: var(--white);
 }
+/******************
+ponuda
+******************/
+.ponuda {
+  background: var(--white);
+  padding: 50px;
+}
+.ponuda img{
+  width: 100%;
+  display: block;
+}
+.ponuda article {
+  display: flex;
+}
+.ponuda article div {
+  flex: 0 0 50%;
+}
+.content {
+  box-shadow: 0 0 20px gray;
+}
+.ponuda .text {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.ponuda .text p {
+  margin-bottom: 20px;
+}
+.ponuda .text button {
+  background: var(--blue);
+}
+
