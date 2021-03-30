@@ -24,10 +24,10 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  margin: 100px 0;
+  margin: 50px 0;
 }
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: auto;
 }
 a {
@@ -48,6 +48,7 @@ button:hover {
 h2 {
   font-size: 1.8rem;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 /******************
 navs
@@ -103,4 +104,54 @@ about
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+/******************
+contact
+******************/
+.contact {
+  background: var(--white);
+  text-align: center;
+  padding: var(--py);
+}
+.contact .row:first-child {
+  padding-bottom: 50px;
+}
+.contact .row:last-child {
+  display: flex;
+}
+.contact .row:last-child div {
+  flex: 1;
+  border-right: 1px solid var(--gray);
+}
+.contact .row:last-child div:last-child {
+  border-right: none;
+}
+.contact .fa-camera-retro {
+  color: var(--lightGreen);
+}
+.contact .fa-envelope {
+  color: var(--darkGreen);
+}
+.contact .fa-phone {
+  color: var(--blue);
+}
+.contact i {
+  font-size: 2rem;
+  border: 1px solid var(--gray);
+  padding: 20px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.contact h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+/******************
+galery
+******************/
+.galery {
+  background: var(--lightGreen);
+  padding: 50px;
+  text-align: center;
+  color: var(--white);
 }
